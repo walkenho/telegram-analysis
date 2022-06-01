@@ -2,7 +2,7 @@
 name = "telegramanalysor"
 version = "0.1.0"
 description = ""
-authors = ["Jessica Walkenhorst <walkenho@gmail.com>"]
+authors = ["Jessica Walkenhorst"]
 
 [tool.poetry.dependencies]
 python = "^3.8"

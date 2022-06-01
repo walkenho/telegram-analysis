@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "telegram-analysis"
+name = "telegramanalysor"
 version = "0.1.0"
 description = ""
 authors = ["Jessica Walkenhorst <walkenho@gmail.com>"]
@@ -8,8 +8,21 @@ authors = ["Jessica Walkenhorst <walkenho@gmail.com>"]
 python = "^3.8"
 telethon = "^1.23.0"
 jupyter = "^1.0.0"
+networkx = "^2.6.2"
+ipycytoscape = "^1.2.2"
+jupyterlab-vim = "^0.14.5"
+jupyterlab = "^3.2.5"
+pandas = "^1.3.5"
+plotly-express = "^0.4.1"
+ipywidgets = "^7.6.5"
+jupyter-dash = "^0.4.0"
+pandas-flavor = "^0.2.0"
+nltk = "^3.6.7"
+wordcloud = "^1.8.1"
 
 [tool.poetry.dev-dependencies]
+jupyterlab = "^3.2.5"
+jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
